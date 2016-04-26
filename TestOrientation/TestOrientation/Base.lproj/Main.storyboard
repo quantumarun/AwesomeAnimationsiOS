@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestOrientation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Sz-hQ-vJn">
+                                <rect key="frame" x="200" y="213" width="200" height="174"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firefox.png" translatesAutoresizingMaskIntoConstraints="NO" id="BdA-yQ-Q1v" userLabel="Image2">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="174"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chrome.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yvc-Gg-Gyi" userLabel="Image1">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="174"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmc-lB-kqe">
+                                        <rect key="frame" x="80" y="67" width="40" height="40"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="DG6-fj-HWh"/>
+                                            <constraint firstAttribute="width" constant="40" id="Waj-6h-ZZP"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BdA-yQ-Q1v" secondAttribute="trailing" id="3ZO-31-VsD"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yvc-Gg-Gyi" secondAttribute="bottom" id="4xM-6X-5Qn"/>
+                                    <constraint firstAttribute="bottom" secondItem="BdA-yQ-Q1v" secondAttribute="bottom" id="6rp-oy-AFG"/>
+                                    <constraint firstItem="nmc-lB-kqe" firstAttribute="centerX" secondItem="6Sz-hQ-vJn" secondAttribute="centerX" id="CXO-aq-Wds"/>
+                                    <constraint firstItem="BdA-yQ-Q1v" firstAttribute="leading" secondItem="6Sz-hQ-vJn" secondAttribute="leading" id="Elh-OJ-NRZ"/>
+                                    <constraint firstItem="Yvc-Gg-Gyi" firstAttribute="trailing" secondItem="nmc-lB-kqe" secondAttribute="trailing" constant="-20" id="TEA-Gm-wEn"/>
+                                    <constraint firstAttribute="height" constant="174" id="TIW-zj-N4d"/>
+                                    <constraint firstItem="BdA-yQ-Q1v" firstAttribute="top" secondItem="6Sz-hQ-vJn" secondAttribute="top" id="YQo-Dd-o0W"/>
+                                    <constraint firstItem="Yvc-Gg-Gyi" firstAttribute="top" secondItem="6Sz-hQ-vJn" secondAttribute="top" id="bbS-Jg-akF"/>
+                                    <constraint firstAttribute="width" constant="200" id="cYA-d1-Otl"/>
+                                    <constraint firstItem="Yvc-Gg-Gyi" firstAttribute="leading" secondItem="6Sz-hQ-vJn" secondAttribute="leading" id="gRe-s5-5L2"/>
+                                    <constraint firstItem="nmc-lB-kqe" firstAttribute="centerY" secondItem="6Sz-hQ-vJn" secondAttribute="centerY" id="pYT-4F-Kda"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Sz-hQ-vJn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1IK-dP-15a"/>
+                            <constraint firstItem="6Sz-hQ-vJn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BYp-Pk-ghI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="6Sz-hQ-vJn" id="wCz-EK-eWU"/>
+                        <outlet property="draggableButton" destination="nmc-lB-kqe" id="e7s-2X-Mem"/>
+                        <outlet property="horizontalConstraint" destination="CXO-aq-Wds" id="eSg-Qy-ktR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chrome.png" width="200" height="200"/>
+        <image name="firefox.png" width="200" height="200"/>
+    </resources>
+</document>
