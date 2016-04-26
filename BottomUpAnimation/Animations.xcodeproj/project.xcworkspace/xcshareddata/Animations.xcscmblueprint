@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D1BCE4ED2E2F40C70B9CC56A360FE06DCA2E5766",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D1BCE4ED2E2F40C70B9CC56A360FE06DCA2E5766" : 0,
+    "71F48339EB723598D23C9E60FE6A614D33AA501A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "69C0B20C-5EA6-412D-A6BF-458B19EA83DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D1BCE4ED2E2F40C70B9CC56A360FE06DCA2E5766" : "BottomUpAnimation\/",
+    "71F48339EB723598D23C9E60FE6A614D33AA501A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Animations",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Animations.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/quantumarun\/AwesomeAnimationsiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71F48339EB723598D23C9E60FE6A614D33AA501A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/quantumarun\/BottomUp-Animation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1BCE4ED2E2F40C70B9CC56A360FE06DCA2E5766"
+    }
+  ]
+}
