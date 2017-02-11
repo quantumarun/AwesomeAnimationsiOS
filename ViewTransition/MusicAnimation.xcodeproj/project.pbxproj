@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4A5460C1E4F99BC003EA2D2 /* kiwi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A5460B1E4F99BC003EA2D2 /* kiwi.jpg */; };
+		F4A5460E1E4F99C3003EA2D2 /* kiwi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A5460D1E4F99C3003EA2D2 /* kiwi1.jpg */; };
+		F4A546101E4FA47B003EA2D2 /* kiwi_benefit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A5460F1E4FA47B003EA2D2 /* kiwi_benefit.jpg */; };
 		F4AD5DA21C9FCBEE0085BC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD5DA11C9FCBEE0085BC64 /* AppDelegate.swift */; };
 		F4AD5DA41C9FCBEE0085BC64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD5DA31C9FCBEE0085BC64 /* ViewController.swift */; };
 		F4AD5DA71C9FCBEE0085BC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AD5DA51C9FCBEE0085BC64 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4A5460B1E4F99BC003EA2D2 /* kiwi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi.jpg; sourceTree = "<group>"; };
+		F4A5460D1E4F99C3003EA2D2 /* kiwi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi1.jpg; sourceTree = "<group>"; };
+		F4A5460F1E4FA47B003EA2D2 /* kiwi_benefit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi_benefit.jpg; sourceTree = "<group>"; };
 		F4AD5D9E1C9FCBEE0085BC64 /* MusicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AD5DA11C9FCBEE0085BC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4AD5DA31C9FCBEE0085BC64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				F4AD5DA11C9FCBEE0085BC64 /* AppDelegate.swift */,
 				F4AD5DA31C9FCBEE0085BC64 /* ViewController.swift */,
 				F4AD5DA51C9FCBEE0085BC64 /* Main.storyboard */,
+				F4A5460B1E4F99BC003EA2D2 /* kiwi.jpg */,
+				F4A5460F1E4FA47B003EA2D2 /* kiwi_benefit.jpg */,
+				F4A5460D1E4F99C3003EA2D2 /* kiwi1.jpg */,
 				F4AD5DA81C9FCBEE0085BC64 /* Assets.xcassets */,
 				F4AD5DAA1C9FCBEE0085BC64 /* LaunchScreen.storyboard */,
 				F4AD5DAD1C9FCBEE0085BC64 /* Info.plist */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					F4AD5D9D1C9FCBEE0085BC64 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -124,7 +134,10 @@
 			files = (
 				F4AD5DAC1C9FCBEE0085BC64 /* LaunchScreen.storyboard in Resources */,
 				F4AD5DA91C9FCBEE0085BC64 /* Assets.xcassets in Resources */,
+				F4A5460E1E4F99C3003EA2D2 /* kiwi1.jpg in Resources */,
+				F4A546101E4FA47B003EA2D2 /* kiwi_benefit.jpg in Resources */,
 				F4AD5DA71C9FCBEE0085BC64 /* Main.storyboard in Resources */,
+				F4A5460C1E4F99BC003EA2D2 /* kiwi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.demoId.MusicAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.demoId.MusicAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +301,7 @@
 				F4AD5DB21C9FCBEE0085BC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

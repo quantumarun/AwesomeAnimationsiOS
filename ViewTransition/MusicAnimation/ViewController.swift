@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnClick(sender: UIButton) {
+    @IBAction func btnClick(_ sender: UIButton) {
         if self.frontVisible {
             self.frontViewVisible()
         } else {
@@ -54,18 +54,18 @@ class ViewController: UIViewController {
     }
     
     func frontViewVisible () {
-        UIView.animateWithDuration(0.5, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
             self.frontTop.constant = self.frontTop.constant + 100;
             self.frontBottom.constant = self.frontBottom.constant - 100;
             self.view.layoutIfNeeded()
         }, completion: { finished in
             print("completion")
-            self.view .bringSubviewToFront(self.backview)
-                UIView.animateWithDuration(0.5, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+            self.view .bringSubview(toFront: self.backview)
+                UIView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
                     //Move FrontView To Back
                     self.frontLeading.constant = 67
                     self.frontTrailing.constant = 74
-                    self.frontTop.constant = 8
+                    self.frontTop.constant = 0
                     self.frontBottom.constant = 200
                     //Bring BackView To Front
                     self.backLeading.constant = 20
@@ -80,17 +80,17 @@ class ViewController: UIViewController {
     }
 
     func backViewVisible () {
-        UIView.animateWithDuration(0.5, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
-            self.backTop.constant = self.frontTop.constant + 100;
-            self.backBottom.constant = self.frontBottom.constant - 100;
+        UIView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
+            self.backTop.constant = self.backTop.constant + 100;
+            self.backBottom.constant = self.backBottom.constant - 100;
             self.view.layoutIfNeeded()
         }, completion: { finished in
-                self.view .bringSubviewToFront(self.frontView)
-                UIView.animateWithDuration(0.5, delay: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+                self.view .bringSubview(toFront: self.frontView)
+                UIView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
                     //Move FrontView To Back
                     self.backLeading.constant = 67
                     self.backTailing.constant = 74
-                    self.backTop.constant = 8
+                    self.backTop.constant = 0
                     self.backBottom.constant = 200
                     //Bring BackView To Front
                     self.frontLeading.constant = 20
