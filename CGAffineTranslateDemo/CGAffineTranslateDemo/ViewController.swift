@@ -28,6 +28,9 @@ class ViewController: UIViewController {
             UIView.animate(withDuration: 0.7, animations: {
                 self.lbl1.transform = CGAffineTransform(translationX: -self.view.frame.width, y: self.view.center.y - 10)
                 self.lbl2.transform = CGAffineTransform(translationX: self.view.frame.width, y: -(self.view.center.y + 10))
+            }, completion: { finished in
+                self.lbl1.transform = CGAffineTransform.identity
+                self.lbl2.transform = CGAffineTransform.identity
             })
         })
     }
