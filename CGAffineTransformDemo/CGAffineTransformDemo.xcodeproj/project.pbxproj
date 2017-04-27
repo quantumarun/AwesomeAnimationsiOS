@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42C1F391EB25FB100DA7A73 /* ScalingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C1F381EB25FB100DA7A73 /* ScalingViewController.swift */; };
 		F44A4A9F1E7B7F9100023404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */; };
 		F44A4AA11E7B7F9100023404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A4AA01E7B7F9100023404 /* ViewController.swift */; };
 		F44A4AA41E7B7F9100023404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A4AA21E7B7F9100023404 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F42C1F381EB25FB100DA7A73 /* ScalingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingViewController.swift; sourceTree = "<group>"; };
 		F44A4A9B1E7B7F9100023404 /* CGAffineTransformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAffineTransformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44A4AA01E7B7F9100023404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */,
 				F44A4AA01E7B7F9100023404 /* ViewController.swift */,
+				F42C1F381EB25FB100DA7A73 /* ScalingViewController.swift */,
 				F44A4AA21E7B7F9100023404 /* Main.storyboard */,
 				F44A4AB01E7B7FA100023404 /* kiwi1.jpg */,
 				F44A4AA51E7B7F9100023404 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44A4AA11E7B7F9100023404 /* ViewController.swift in Sources */,
+				F42C1F391EB25FB100DA7A73 /* ScalingViewController.swift in Sources */,
 				F44A4A9F1E7B7F9100023404 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
