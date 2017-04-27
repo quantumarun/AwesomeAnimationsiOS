@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F44A4A9A1E7B7F9100023404"
-               BuildableName = "CGAffineTranslateDemo.app"
-               BlueprintName = "CGAffineTranslateDemo"
-               ReferencedContainer = "container:CGAffineTranslateDemo.xcodeproj">
+               BuildableName = "CGAffineTransformDemo.app"
+               BlueprintName = "CGAffineTransformDemo"
+               ReferencedContainer = "container:CGAffineTransformDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F44A4A9A1E7B7F9100023404"
-            BuildableName = "CGAffineTranslateDemo.app"
-            BlueprintName = "CGAffineTranslateDemo"
-            ReferencedContainer = "container:CGAffineTranslateDemo.xcodeproj">
+            BuildableName = "CGAffineTransformDemo.app"
+            BlueprintName = "CGAffineTransformDemo"
+            ReferencedContainer = "container:CGAffineTransformDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F44A4A9A1E7B7F9100023404"
-            BuildableName = "CGAffineTranslateDemo.app"
-            BlueprintName = "CGAffineTranslateDemo"
-            ReferencedContainer = "container:CGAffineTranslateDemo.xcodeproj">
+            BuildableName = "CGAffineTransformDemo.app"
+            BlueprintName = "CGAffineTransformDemo"
+            ReferencedContainer = "container:CGAffineTransformDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F44A4A9A1E7B7F9100023404"
-            BuildableName = "CGAffineTranslateDemo.app"
-            BlueprintName = "CGAffineTranslateDemo"
-            ReferencedContainer = "container:CGAffineTranslateDemo.xcodeproj">
+            BuildableName = "CGAffineTransformDemo.app"
+            BlueprintName = "CGAffineTransformDemo"
+            ReferencedContainer = "container:CGAffineTransformDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

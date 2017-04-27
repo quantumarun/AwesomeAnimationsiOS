@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F44A4A9B1E7B7F9100023404 /* CGAffineTranslateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAffineTranslateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44A4A9B1E7B7F9100023404 /* CGAffineTransformDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGAffineTransformDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F44A4AA01E7B7F9100023404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F44A4AA31E7B7F9100023404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		F44A4A921E7B7F9100023404 = {
 			isa = PBXGroup;
 			children = (
-				F44A4A9D1E7B7F9100023404 /* CGAffineTranslateDemo */,
+				F44A4A9D1E7B7F9100023404 /* CGAffineTransformDemo */,
 				F44A4A9C1E7B7F9100023404 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		F44A4A9C1E7B7F9100023404 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F44A4A9B1E7B7F9100023404 /* CGAffineTranslateDemo.app */,
+				F44A4A9B1E7B7F9100023404 /* CGAffineTransformDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F44A4A9D1E7B7F9100023404 /* CGAffineTranslateDemo */ = {
+		F44A4A9D1E7B7F9100023404 /* CGAffineTransformDemo */ = {
 			isa = PBXGroup;
 			children = (
 				F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				F44A4AA71E7B7F9100023404 /* LaunchScreen.storyboard */,
 				F44A4AAA1E7B7F9100023404 /* Info.plist */,
 			);
-			path = CGAffineTranslateDemo;
+			path = CGAffineTransformDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F44A4A9A1E7B7F9100023404 /* CGAffineTranslateDemo */ = {
+		F44A4A9A1E7B7F9100023404 /* CGAffineTransformDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F44A4AAD1E7B7F9100023404 /* Build configuration list for PBXNativeTarget "CGAffineTranslateDemo" */;
+			buildConfigurationList = F44A4AAD1E7B7F9100023404 /* Build configuration list for PBXNativeTarget "CGAffineTransformDemo" */;
 			buildPhases = (
 				F44A4A971E7B7F9100023404 /* Sources */,
 				F44A4A981E7B7F9100023404 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CGAffineTranslateDemo;
+			name = CGAffineTransformDemo;
 			productName = CGAffineTranslateDemo;
-			productReference = F44A4A9B1E7B7F9100023404 /* CGAffineTranslateDemo.app */;
+			productReference = F44A4A9B1E7B7F9100023404 /* CGAffineTransformDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F44A4A961E7B7F9100023404 /* Build configuration list for PBXProject "CGAffineTranslateDemo" */;
+			buildConfigurationList = F44A4A961E7B7F9100023404 /* Build configuration list for PBXProject "CGAffineTransformDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F44A4A9A1E7B7F9100023404 /* CGAffineTranslateDemo */,
+				F44A4A9A1E7B7F9100023404 /* CGAffineTransformDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -264,9 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CGAffineTranslateDemo/Info.plist;
+				INFOPLIST_FILE = CGAffineTransformDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CGAffineTranslateDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CGAffineTransformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,9 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CGAffineTranslateDemo/Info.plist;
+				INFOPLIST_FILE = CGAffineTransformDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.CGAffineTranslateDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CGAffineTransformDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F44A4A961E7B7F9100023404 /* Build configuration list for PBXProject "CGAffineTranslateDemo" */ = {
+		F44A4A961E7B7F9100023404 /* Build configuration list for PBXProject "CGAffineTransformDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F44A4AAB1E7B7F9100023404 /* Debug */,
@@ -296,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F44A4AAD1E7B7F9100023404 /* Build configuration list for PBXNativeTarget "CGAffineTranslateDemo" */ = {
+		F44A4AAD1E7B7F9100023404 /* Build configuration list for PBXNativeTarget "CGAffineTransformDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F44A4AAE1E7B7F9100023404 /* Debug */,
 				F44A4AAF1E7B7F9100023404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
