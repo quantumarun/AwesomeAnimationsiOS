@@ -14,6 +14,8 @@
 		F44A4AA61E7B7F9100023404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A4AA51E7B7F9100023404 /* Assets.xcassets */; };
 		F44A4AA91E7B7F9100023404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A4AA71E7B7F9100023404 /* LaunchScreen.storyboard */; };
 		F44A4AB11E7B7FA100023404 /* kiwi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F44A4AB01E7B7FA100023404 /* kiwi1.jpg */; };
+		F4ECCFAD1EBA37260031E159 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECCFAC1EBA37260031E159 /* RotationViewController.swift */; };
+		F4ECCFAF1EBA40B50031E159 /* CombinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECCFAE1EBA40B50031E159 /* CombinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F44A4AA81E7B7F9100023404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F44A4AAA1E7B7F9100023404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F44A4AB01E7B7FA100023404 /* kiwi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiwi1.jpg; sourceTree = "<group>"; };
+		F4ECCFAC1EBA37260031E159 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		F4ECCFAE1EBA40B50031E159 /* CombinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				F44A4A9E1E7B7F9100023404 /* AppDelegate.swift */,
 				F44A4AA01E7B7F9100023404 /* ViewController.swift */,
 				F42C1F381EB25FB100DA7A73 /* ScalingViewController.swift */,
+				F4ECCFAC1EBA37260031E159 /* RotationViewController.swift */,
+				F4ECCFAE1EBA40B50031E159 /* CombinationViewController.swift */,
 				F44A4AA21E7B7F9100023404 /* Main.storyboard */,
 				F44A4AB01E7B7FA100023404 /* kiwi1.jpg */,
 				F44A4AA51E7B7F9100023404 /* Assets.xcassets */,
@@ -145,7 +151,9 @@
 			files = (
 				F44A4AA11E7B7F9100023404 /* ViewController.swift in Sources */,
 				F42C1F391EB25FB100DA7A73 /* ScalingViewController.swift in Sources */,
+				F4ECCFAD1EBA37260031E159 /* RotationViewController.swift in Sources */,
 				F44A4A9F1E7B7F9100023404 /* AppDelegate.swift in Sources */,
+				F4ECCFAF1EBA40B50031E159 /* CombinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

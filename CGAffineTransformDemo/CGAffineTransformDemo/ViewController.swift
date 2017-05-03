@@ -23,11 +23,11 @@ class ViewController: UIViewController {
     @IBAction func tapEvent(_ sender: UIButton) {
         UIView.animate(withDuration: 1.0, animations: {
             self.lbl1.transform = CGAffineTransform(translationX: 0, y: self.view.center.y - 10)
-            self.lbl2.transform = CGAffineTransform(translationX: 0, y: -(self.view.center.y + 10))
+            self.lbl2.transform = CGAffineTransform(translationX: 0, y: -(self.view.center.y - 15))
         }, completion: { finished in
             UIView.animate(withDuration: 0.7, animations: {
                 self.lbl1.transform = CGAffineTransform(translationX: -self.view.frame.width, y: self.view.center.y - 10)
-                self.lbl2.transform = CGAffineTransform(translationX: self.view.frame.width, y: -(self.view.center.y + 10))
+                self.lbl2.transform = CGAffineTransform(translationX: self.view.frame.width, y: -(self.view.center.y - 15))
             }, completion: { finished in
                 self.lbl1.transform = CGAffineTransform.identity
                 self.lbl2.transform = CGAffineTransform.identity
